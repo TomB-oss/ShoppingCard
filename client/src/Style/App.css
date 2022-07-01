@@ -1,0 +1,244 @@
+p {
+  font-size: 10px;
+}
+
+nav {
+  text-align: center;
+}
+
+.login {
+  text-align: center;
+}
+
+.info {
+  text-align: center;
+  border-radius: 4px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  color: red;
+}
+
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 80px;
+  height: 80px;
+  transition: transform .2s;
+  margin: 0 auto;
+}
+
+.logo:hover {
+  transform: scale(1.2);
+}
+
+.user {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 80px;
+  height: 80px;
+  transition: transform .2s;
+  margin: 0 auto;
+}
+
+.user:hover {
+  transform: scale(1.2);
+}
+
+.register {
+  text-align: center;
+  position: relative;
+}
+
+.titleLog {
+  text-align: center;
+  margin: 40px;
+  border-radius: 4px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #5ab9f8;
+}
+
+.linkList {
+  text-align: center;
+  color: black;
+  margin: 40px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  transition: transform .2s;
+}
+
+.linkList:hover {
+  transform: scale(1.5);
+  color: rgb(255, 255, 255);
+}
+
+.title {
+  text-align: center;
+  margin: 40px;
+  border-radius: 4px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.nameList {
+  display:flex;
+  position: relative;
+  left: 30%;
+  outline: 2px solid;
+  width: 200px;
+}
+
+input[type=Name]:focus {
+  outline: 2px solid green;
+}
+
+.btnList {
+  border-radius: 4px;
+  font-size: 10px;
+  height: 20px;
+  width: 80px;
+  margin: 10px;
+  position: relative;
+  left: 40%;
+}
+
+.btnList:hover {
+  background-color: rgb(104, 106, 106);
+  opacity: 1;
+}
+
+
+div#banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #5ab9f8;
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.form input {
+  margin: 10px;
+  font-size: 10px;
+  height: 20px;
+  width: 170px;
+}
+
+.btn {
+  border-radius: 4px;
+  font-size: 10px;
+  height: 20px;
+  width: 80px;
+  margin: 10px;
+}
+
+.btn:hover{
+  background-color: rgb(104, 106, 106);
+  opacity: 1;
+}
+
+.backBtn {
+  position: absolute;
+  top: 0px;
+  left: 50px;
+  border-radius: 6px;
+  font-size: 10px;
+  height: 20px;
+  width: 80px;
+  margin: 10px;
+}
+
+.backBtn:hover{
+  background-color: rgb(104, 106, 106);
+  opacity: 1;
+}
+
+.backBtn2 {
+  position: absolute;
+  top: 40px;
+  left: 50px;
+  border-radius: 6px;
+  font-size: 10px;
+  height: 20px;
+  width: 80px;
+  margin: 10px;
+}
+
+.backBtn2:hover{
+  background-color: rgb(104, 106, 106);
+  opacity: 1;
+}
+
+footer {
+  background-color: #5ab9f8;
+  position: absolute;
+  top:500px;
+  left: 0;
+  width:100%;
+  padding-top:30px;
+  height: 80px;
+}
+
+.listCourse {
+  position: absolute;
+  left: 80px;
+}
+
+.addBarre {
+  position: relative;
+  border-radius: 5px;
+  margin: 10px;
+  width: 200px;
+  background-color:  rgb(209, 204, 204);
+}
+
+.addBarre:focus {
+  background-color:  rgb(255, 249, 249);
+}
+
+.nameIngrediant {
+  position: relative;
+  width: 200px;
+  margin: 15px;
+  text-align: center;
+  background-color:  rgb(102, 102, 108);
+  border-radius: 10px;
+  color: white;
+}
+
+.nameIngrediant:hover {
+  background-color: #d03737;
+  color: #fff;
+  transition: 0.2s;
+}
+
+
+.btnAdd {
+  position: relative;
+  border-radius: 10px;
+  top: -2px;
+  background-color:  #bcbcbc;
+}
+
+.deleteIngrediant {
+  position: absolute;
+  left: 220px;
+  top: -12px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  color: rgb(218, 17, 17);
+  transition: transform .2s;
+
+}
+
+
+.deleteIngrediant:hover {
+  transform: scale(1.4);
+}

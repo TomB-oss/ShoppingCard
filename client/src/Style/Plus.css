@@ -1,0 +1,90 @@
+.listBtn {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: #fff;
+  cursor: pointer;
+  border: 2px solid #095776;
+
+  top: 200px;
+  left: 400px;
+
+  text-align: center;
+  line-height: 200px;
+  border-radius: 4px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.listBtn:hover:before,
+.listBtn:hover:after {
+  background: #fff;
+  transition: 0.2s;
+}
+
+.listBtn:hover {
+  background-color: #4873ea;
+  color: #fff;
+  transition: 0.2s;
+}
+
+.button_plus {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 4px;
+    background: #fff;
+    cursor: pointer;
+    border: 2px solid #095776;
+
+    /* Mittig */
+    top: 200px;
+    left: 100px;
+  }
+
+  .button_plus:after {
+    content: '';
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height: 4px;
+    width: 50%;
+    background: #095776;
+    top: 50%;
+    left: 50%;
+  }
+
+  .button_plus:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #095776;
+    height: 50%;
+    width: 4px;
+  }
+
+  .button_plus:hover:before,
+  .button_plus:hover:after {
+    background: #fff;
+    transition: 0.2s;
+  }
+
+  .button_plus:hover {
+    background-color: #5ab9f8;
+    transition: 0.2s;
+  }
+
+  .deleteList {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    color: #fff;
+    position:absolute;
+    left:175px;
+    top:-90px;
+    transition: transform .2s;
+
+  }
+
+  .deleteList:hover {
+    transform: scale(2);
+  }
